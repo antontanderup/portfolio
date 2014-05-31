@@ -1,0 +1,45 @@
+/* ----------------------------------- \
+	partials/_buttons.scss
+\ ----------------------------------- */
+
+
+.skill {
+	border: $detail-border;
+	border-radius: $border-radius;
+	margin: .9rem 0;
+	font-size: $base-font-size;
+	line-height: $base-line-height * 1.25;
+	span {
+		background-color: $alt-background-color;
+		color: $alt-foreground-color;
+		padding: 0 .6rem;
+		display:inline-block;
+		width:100%
+	}
+}
+
+.button {
+	border: $detail-border;
+	border-radius: $border-radius;
+	background-color: $alt-background-color;
+	color:$alt-foreground-color;
+	text-decoration: none;
+	text-align:center;
+	font-size: 2rem;
+	display:block;
+	line-height: 4.8rem;
+	margin: .9rem 0;
+}
+
+.half-width {
+	width:48.5%;
+	margin-top: 0;
+}
+
+.left {
+	float:left;
+}
+
+.right {
+	float:right;
+}

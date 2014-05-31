@@ -1,0 +1,26 @@
+/* ----------------------------------- \\
+	partials/_base.scss - loaded
+\\ ----------------------------------- */
+
+@import "partials/colors";
+
+// Font Weights
+$light-font-weight: 100;
+$normal-font-weight: 400;
+$bold-font-weight:700;
+
+// Base Font
+$base-font-family: helvetica, arial, sans-serif;
+$base-font-weight: $normal-font-weight;
+$base-font-size: 1.6rem;
+$base-line-height:1.45;
+
+// Headline Font
+@import url(http://fonts.googleapis.com/css?family=Roboto+Slab);
+$headline-font-family: 'Roboto Slab', serif;
+$headline-main-font-size: 3.6rem;
+$headline-subhead-font-size: 3rem;
+
+// Borders
+$detail-border: 1px solid $accent-color;
+$border-radius: .3rem;

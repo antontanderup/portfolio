@@ -1,0 +1,35 @@
+/* ----------------------------------- \
+	partials/_typography.scss
+\ ----------------------------------- */
+
+body {
+	font-size: $base-font-size;
+	font-family: $base-font-family;
+}
+
+.title, .subhead {
+	font-family: $headline-font-family;
+
+}
+
+.title {
+	font-size: $headline-main-font-size;
+	margin-bottom: 1.4rem;
+	margin-top:.9rem;
+}
+
+.subhead {
+	font-size: $headline-subhead-font-size;
+	border-bottom: $detail-border;
+	padding-bottom: .8rem;
+	margin-top:2.8rem;
+	margin-bottom: 1.4rem;
+}
+
+p {
+	font-family: $base-font-family;
+	font-size: $base-font-size;
+	line-height: $base-line-height;
+	margin:.9rem 0;
+}
+

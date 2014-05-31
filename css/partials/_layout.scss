@@ -1,0 +1,21 @@
+/* ----------------------------------- \
+	partials/_layout.scss - loaded
+\ ----------------------------------- */
+
+html { 
+	font-size: 62.5%; // 1rem = 10px
+}
+
+.wrap {
+	margin:0 3%;
+}
+
+.intro-text {
+	border: $detail-border;
+	border-left:0; border-right:0;
+	p {
+		font-style: italic;
+		margin-bottom: .9rem;
+		color:$alt-background-color;
+	}
+}
