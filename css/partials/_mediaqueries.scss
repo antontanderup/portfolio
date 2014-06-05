@@ -1,0 +1,151 @@
+/* ----------------------------------- \
+	partials/_mediaqueries.scss - loaded
+\ ----------------------------------- */
+
+.wrap {
+	display:flex;
+	flex-flow: row wrap;
+	max-width: 95rem;
+}
+
+//exclude header from flex
+.header .wrap {
+	display:block;
+}
+
+// Desktop Navigation
+@media all and (min-width: 650px) {
+	.nav-button {
+		display:none;
+	}
+	#top-nav-links {
+		display:block;
+	}
+	.header {
+		height:6rem;
+		.wrap {
+			display:table;
+			width:94%;
+			h1 {
+				display:table-cell;
+				width:30%;
+				vertical-align: middle;
+			}
+			nav {
+				display:table-cell;
+				height:6rem;
+				width:70%;		
+				#top-nav-links { // UL element
+					height:100%;
+					float:right;
+					li {
+						float:left;
+						height:100%;
+					}
+					a {
+						display:inline-block;
+						padding: 0 2rem;
+						height:5.2rem;
+						margin-top: .8rem;
+						border-top: 0;
+					}
+					.current-page {
+						background-color: $main-background-color;
+						color: $main-foreground-color;
+					}
+
+					.current-page:hover {
+						opacity:1;
+					}
+
+					a:hover {
+						opacity:.8;
+						background-color: $main-background-color;
+						color: $main-foreground-color;
+					}
+
+					a:active {
+						background-color: $main-background-color;
+						opacity:1;
+					}
+
+				}
+			}
+		}
+	}
+
+}
+
+// Center content
+@media all and (min-width: 1010px) { 
+	.wrap {
+		margin:auto;
+	}
+}
+
+
+// Min profil RWD layout
+.min-profil {
+
+	.intro, .about, .kontakt {
+		flex:1 100%;
+	}
+
+	.intro {
+		order:1;
+	}
+
+	.kompetencer {
+		order:2;
+	}
+
+	.about {
+		order:3;
+	}
+
+	.kontakt {
+		order:4;
+	}
+
+
+
+	@media all and (min-width: 650px) {
+
+		.wrap {
+			display:block;
+		}
+
+		.intro, .about, .kontakt, .kompetencer {
+			float:right;
+		}
+
+		.intro, .about {
+			width:55%;
+			margin-right: 5%
+		}
+
+		.kompetencer {
+			width:40%;
+
+		}
+
+		.kontakt {
+			width:100%;
+		}
+	}
+
+	@media all and (min-width: 770px) {
+
+		.intro, .about, .kontakt {
+			width:65%;
+			margin-right: 5%
+		}
+
+		.kompetencer {
+			width:30%;
+
+		}
+
+	}
+
+}

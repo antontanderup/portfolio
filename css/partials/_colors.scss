@@ -2,7 +2,13 @@
 	partials/_colors.scss - loaded
 \ ----------------------------------- */
 
+$main-background-color: #ffffff; // White
+$main-foreground-color: #000000; // Black
+
 $accent-color: #C4C4C4;
 
-$alt-background-color: #575757;
-$alt-foreground-color: #ffffff;
+$alt-background-color: #575757; // Gray
+$alt-foreground-color: #ffffff; // White
+
+$subdued-text-color: #575757; // Bright BG
+$alt-subdued-text-color: #C2C2C2; // Dark BG

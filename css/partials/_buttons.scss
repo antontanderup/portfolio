@@ -1,5 +1,5 @@
 /* ----------------------------------- \
-	partials/_buttons.scss
+	partials/_buttons.scss - loaded
 \ ----------------------------------- */
 
 
@@ -17,6 +17,9 @@
 		width:100%
 	}
 }
+
+
+// Content buttons
 
 .button {
 	border: $detail-border;
@@ -42,4 +45,27 @@
 
 .right {
 	float:right;
+}
+
+// Navigation-button
+
+.nav-button {
+	background-image: url('../icons/nav-button.svg');
+	background-repeat: none;
+	position:absolute;
+	height:4.8rem;
+	width:4.8rem;
+	top: 0.45rem;
+	right: 3%;
+}
+
+#top-nav-links li a {
+	display: block;
+	color: $alt-subdued-text-color;
+	text-decoration: none;
+	height: 4.8rem;
+	line-height: 4.8rem;
+	text-align: center;
+	border-top: $nav-border;
+	font-size: $base-font-size;
 }

@@ -49,7 +49,7 @@ table {
   box-sizing: border-box; }
 
 /* ----------------------------------- \
-	partials/_typography.scss
+	partials/_typography.scss - loaded
 \ ----------------------------------- */
 body {
   font-size: 1.6rem;
@@ -61,7 +61,7 @@ body {
 .title {
   font-size: 3.6rem;
   margin-bottom: 1.4rem;
-  margin-top: .9rem; }
+  margin-top: 2.9rem; }
 
 .subhead {
   font-size: 3rem;
@@ -77,7 +77,7 @@ p {
   margin: .9rem 0; }
 
 /* ----------------------------------- \
-	partials/_buttons.scss
+	partials/_buttons.scss - loaded
 \ ----------------------------------- */
 .skill {
   border: 1px solid #c4c4c4;
@@ -114,6 +114,25 @@ p {
 .right {
   float: right; }
 
+.nav-button {
+  background-image: url("../icons/nav-button.svg");
+  background-repeat: none;
+  position: absolute;
+  height: 4.8rem;
+  width: 4.8rem;
+  top: 0.45rem;
+  right: 3%; }
+
+#top-nav-links li a {
+  display: block;
+  color: #c2c2c2;
+  text-decoration: none;
+  height: 4.8rem;
+  line-height: 4.8rem;
+  text-align: center;
+  border-top: 1px solid rgba(255, 255, 255, 0.21);
+  font-size: 1.6rem; }
+
 /* ----------------------------------- \
 	partials/_layout.scss - loaded
 \ ----------------------------------- */
@@ -123,6 +142,13 @@ html {
 .wrap {
   margin: 0 3%; }
 
+.header {
+  background-color: #575757;
+  color: white; }
+  .header h1 {
+    font-size: 2.4rem;
+    line-height: 6rem; }
+
 .intro-text {
   border: 1px solid #c4c4c4;
   border-left: 0;
@@ -131,3 +157,100 @@ html {
     font-style: italic;
     margin-bottom: .9rem;
     color: #575757; }
+
+.profile-picture {
+  width: 100%;
+  margin: 2.9rem 0 0 0; }
+
+.nav-show {
+  display: block; }
+
+.nav-hide {
+  display: none; }
+
+/* ----------------------------------- \
+	partials/_mediaqueries.scss - loaded
+\ ----------------------------------- */
+.wrap {
+  display: flex;
+  flex-flow: row wrap;
+  max-width: 95rem; }
+
+.header .wrap {
+  display: block; }
+
+@media all and (min-width: 650px) {
+  .nav-button {
+    display: none; }
+
+  #top-nav-links {
+    display: block; }
+
+  .header {
+    height: 6rem; }
+    .header .wrap {
+      display: table;
+      width: 94%; }
+      .header .wrap h1 {
+        display: table-cell;
+        width: 30%;
+        vertical-align: middle; }
+      .header .wrap nav {
+        display: table-cell;
+        height: 6rem;
+        width: 70%; }
+        .header .wrap nav #top-nav-links {
+          height: 100%;
+          float: right; }
+          .header .wrap nav #top-nav-links li {
+            float: left;
+            height: 100%; }
+          .header .wrap nav #top-nav-links a {
+            display: inline-block;
+            padding: 0 2rem;
+            height: 5.2rem;
+            margin-top: .8rem;
+            border-top: 0; }
+          .header .wrap nav #top-nav-links .current-page {
+            background-color: white;
+            color: black; }
+          .header .wrap nav #top-nav-links .current-page:hover {
+            opacity: 1; }
+          .header .wrap nav #top-nav-links a:hover {
+            opacity: .8;
+            background-color: white;
+            color: black; }
+          .header .wrap nav #top-nav-links a:active {
+            background-color: white;
+            opacity: 1; } }
+@media all and (min-width: 1010px) {
+  .wrap {
+    margin: auto; } }
+.min-profil .intro, .min-profil .about, .min-profil .kontakt {
+  flex: 1 100%; }
+.min-profil .intro {
+  order: 1; }
+.min-profil .kompetencer {
+  order: 2; }
+.min-profil .about {
+  order: 3; }
+.min-profil .kontakt {
+  order: 4; }
+@media all and (min-width: 650px) {
+  .min-profil .wrap {
+    display: block; }
+  .min-profil .intro, .min-profil .about, .min-profil .kontakt, .min-profil .kompetencer {
+    float: right; }
+  .min-profil .intro, .min-profil .about {
+    width: 55%;
+    margin-right: 5%; }
+  .min-profil .kompetencer {
+    width: 40%; }
+  .min-profil .kontakt {
+    width: 100%; } }
+@media all and (min-width: 770px) {
+  .min-profil .intro, .min-profil .about, .min-profil .kontakt {
+    width: 65%;
+    margin-right: 5%; }
+  .min-profil .kompetencer {
+    width: 30%; } }
