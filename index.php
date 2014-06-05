@@ -12,12 +12,41 @@
 			</section>
 		</div> <!-- intro-text END -->
 
-		<article class="about">
-			<h2 class="subhead">Om mig</h2>
-			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent quis ipsum ac leo ultricies sagittis in faucibus nibh. Morbi id purus vel nisl sollicitudin venenatis ut ut risus. Curabitur tortor neque, aliquet sed convallis in, tempor et nisi. Phasellus ultrices congue mi ac eleifend. Fusce augue est, posuere nec iaculis eget, faucibus at lacus. Phasellus nunc libero, cursus sit amet tempor lacinia, adipiscing laoreet elit.</p>
-			<p>Proin facilisis eu lacus cursus tempus. Nulla lobortis, dui vel accumsan molestie, nisi mauris volutpat ligula, tincidunt mattis enim odio eget sapien. Donec vestibulum id enim eu ullamcorper. Nunc et risus non eros ultricies tempus.</p>
-			<p>Phasellus nunc libero, cursus sit amet tempor lacinia, adipiscing laoreet elit. Proin facilisis eu lacus cursus tempus. Nulla lobortis, dui vel accumsan molestie, nisi mauris volutpat ligula, tincidunt mattis enim odio eget sapien. Donec vestibulum id enim eu ullamcorper. Nunc et risus non eros ultricies tempus.</p>
-		</article> <!-- about END -->
+		<article class="portfolio-item">
+			<h2 class="subhead">Som sunket i jorden</h2>
+			<img src="img/portfolio/somsunketijorden.jpg" alt="Som sunket i jorden thumbnail" />
+			<p>Responsive wordpress tema udvilket og designet til TV teaseren, Som sunket i jorden. </p>
+		</article> <!-- portfolio-item END -->
+
+		<article class="portfolio-item">
+			<h2 class="subhead">Som sunket i jorden</h2>
+			<img src="img/portfolio/somsunketijorden.jpg" alt="Som sunket i jorden thumbnail" />
+			<p>Responsive wordpress tema udvilket og designet til TV teaseren, Som sunket i jorden. </p>
+		</article> <!-- portfolio-item END -->
+
+		<article class="portfolio-item">
+			<h2 class="subhead">Som sunket i jorden</h2>
+			<img src="img/portfolio/somsunketijorden.jpg" alt="Som sunket i jorden thumbnail" />
+			<p>Responsive wordpress tema udvilket og designet til TV teaseren, Som sunket i jorden. </p>
+		</article> <!-- portfolio-item END -->
+
+		<article class="portfolio-item">
+			<h2 class="subhead">Som sunket i jorden</h2>
+			<img src="img/portfolio/somsunketijorden.jpg" alt="Som sunket i jorden thumbnail" />
+			<p>Responsive wordpress tema udvilket og designet til TV teaseren, Som sunket i jorden. </p>
+		</article> <!-- portfolio-item END -->
+
+		<article class="portfolio-item">
+			<h2 class="subhead">Som sunket i jorden</h2>
+			<img src="img/portfolio/somsunketijorden.jpg" alt="Som sunket i jorden thumbnail" />
+			<p>Responsive wordpress tema udvilket og designet til TV teaseren, Som sunket i jorden. </p>
+		</article> <!-- portfolio-item END -->
+
+		<article class="portfolio-item">
+			<h2 class="subhead">Som sunket i jorden</h2>
+			<img src="img/portfolio/somsunketijorden.jpg" alt="Som sunket i jorden thumbnail" />
+			<p>Responsive wordpress tema udvilket og designet til TV teaseren, Som sunket i jorden. </p>
+		</article> <!-- portfolio-item END -->
 
 	</section> <!-- wrap END -->
 

@@ -34,6 +34,21 @@ html {
 	margin:2.9rem 0 0 0;
 }
 
+// Portfolio
+.portfolio {
+	.wrap {
+		justify-content: space-around;
+	}
+}
+
+.portfolio-item {
+	max-width:400px;
+	img {
+		width:100%;
+		border: $detail-border;
+	}
+}
+
 // Navigation 
 
 .nav-show {
