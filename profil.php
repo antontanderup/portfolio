@@ -1,3 +1,4 @@
+<?php $page_title = "Profil" ?>
 <?php include("header.php");?>
 
 	<!-- Min Profil Start -->

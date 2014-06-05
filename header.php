@@ -13,7 +13,7 @@ function menu_highlight($file_name) {
 <head>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<title>Profil - Anton Tanderup</title>
+	<title><?php echo $page_title; ?> - Anton Tanderup</title>
 	<link rel="stylesheet" href="css/main.css">
 </head>
 <body>
