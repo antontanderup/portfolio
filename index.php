@@ -14,37 +14,73 @@
 
 		<article class="portfolio-item">
 			<h2 class="subhead">Som sunket i jorden</h2>
-			<img src="img/portfolio/somsunketijorden.jpg" alt="Som sunket i jorden thumbnail" />
+			<div class="portfolio-img">
+				<img src="img/portfolio/somsunketijorden.jpg" alt="Som sunket i jorden thumbnail" />
+				<div class="portfolio-links">
+					<a class="img-link" href="img/portfolio/somsunketijorden-1200px.jpg"><?php include("icons/camera.svg");?></a>
+					<a class="site-link" href="http://somsunketijorden.dk/"><?php include("icons/link.svg");?></a>
+				</div>
+			</div>
 			<p>Responsive wordpress tema udvilket og designet til TV teaseren, Som sunket i jorden. </p>
 		</article> <!-- portfolio-item END -->
 
 		<article class="portfolio-item">
 			<h2 class="subhead">Som sunket i jorden</h2>
-			<img src="img/portfolio/somsunketijorden.jpg" alt="Som sunket i jorden thumbnail" />
+			<div class="portfolio-img">
+				<img src="img/portfolio/somsunketijorden.jpg" alt="Som sunket i jorden thumbnail" />
+				<div class="portfolio-links">
+					<a class="img-link" href="img/portfolio/somsunketijorden-1200px.jpg"><?php include("icons/camera.svg");?></a>
+					<a class="site-link" href="http://somsunketijorden.dk/"><?php include("icons/link.svg");?></a>
+				</div>
+			</div>
 			<p>Responsive wordpress tema udvilket og designet til TV teaseren, Som sunket i jorden. </p>
 		</article> <!-- portfolio-item END -->
 
 		<article class="portfolio-item">
 			<h2 class="subhead">Som sunket i jorden</h2>
-			<img src="img/portfolio/somsunketijorden.jpg" alt="Som sunket i jorden thumbnail" />
+			<div class="portfolio-img">
+				<img src="img/portfolio/somsunketijorden.jpg" alt="Som sunket i jorden thumbnail" />
+				<div class="portfolio-links">
+					<a class="img-link" href="img/portfolio/somsunketijorden-1200px.jpg"><?php include("icons/camera.svg");?></a>
+					<a class="site-link" href="http://somsunketijorden.dk/"><?php include("icons/link.svg");?></a>
+				</div>
+			</div>
 			<p>Responsive wordpress tema udvilket og designet til TV teaseren, Som sunket i jorden. </p>
 		</article> <!-- portfolio-item END -->
 
 		<article class="portfolio-item">
 			<h2 class="subhead">Som sunket i jorden</h2>
-			<img src="img/portfolio/somsunketijorden.jpg" alt="Som sunket i jorden thumbnail" />
+			<div class="portfolio-img">
+				<img src="img/portfolio/somsunketijorden.jpg" alt="Som sunket i jorden thumbnail" />
+				<div class="portfolio-links">
+					<a class="img-link" href="img/portfolio/somsunketijorden-1200px.jpg"><?php include("icons/camera.svg");?></a>
+					<a class="site-link" href="http://somsunketijorden.dk/"><?php include("icons/link.svg");?></a>
+				</div>
+			</div>
 			<p>Responsive wordpress tema udvilket og designet til TV teaseren, Som sunket i jorden. </p>
 		</article> <!-- portfolio-item END -->
 
 		<article class="portfolio-item">
 			<h2 class="subhead">Som sunket i jorden</h2>
-			<img src="img/portfolio/somsunketijorden.jpg" alt="Som sunket i jorden thumbnail" />
+			<div class="portfolio-img">
+				<img src="img/portfolio/somsunketijorden.jpg" alt="Som sunket i jorden thumbnail" />
+				<div class="portfolio-links">
+					<a class="img-link" href="img/portfolio/somsunketijorden-1200px.jpg"><?php include("icons/camera.svg");?></a>
+					<a class="site-link" href="http://somsunketijorden.dk/"><?php include("icons/link.svg");?></a>
+				</div>
+			</div>
 			<p>Responsive wordpress tema udvilket og designet til TV teaseren, Som sunket i jorden. </p>
 		</article> <!-- portfolio-item END -->
 
 		<article class="portfolio-item">
 			<h2 class="subhead">Som sunket i jorden</h2>
-			<img src="img/portfolio/somsunketijorden.jpg" alt="Som sunket i jorden thumbnail" />
+			<div class="portfolio-img">
+				<img src="img/portfolio/somsunketijorden.jpg" alt="Som sunket i jorden thumbnail" />
+				<div class="portfolio-links">
+					<a class="img-link" href="img/portfolio/somsunketijorden-1200px.jpg"><?php include("icons/camera.svg");?></a>
+					<a class="site-link" href="http://somsunketijorden.dk/"><?php include("icons/link.svg");?></a>
+				</div>
+			</div>
 			<p>Responsive wordpress tema udvilket og designet til TV teaseren, Som sunket i jorden. </p>
 		</article> <!-- portfolio-item END -->
 

@@ -98,11 +98,38 @@
 			flex: 1 auto;
 			max-width:48%;
 		}
+
 	}
 
 	@media all and (min-width: 900px) {
 		.portfolio-item {
 			max-width:32%;
+		}
+		// CSS Animations for hover
+		.portfolio-img {
+			.portfolio-links {
+				top:60%;
+				opacity:.5;
+				-webkit-transition: .4s ease;
+				-moz-transition: .4s ease;
+				transition: .4s ease;
+			}
+		}
+
+		.portfolio-img:hover {
+			.portfolio-links {
+				top:0%;
+				opacity:1;
+				-webkit-transition: .4s ease;
+				-moz-transition: .4s ease;
+				transition: .4s ease;
+				a:hover  { 
+					background-color: $main-background-color;
+					svg path {
+						fill:$main-foreground-color !important;
+					}
+				}
+			}
 		}
 	}
 }

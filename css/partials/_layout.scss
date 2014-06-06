@@ -43,11 +43,48 @@ html {
 
 .portfolio-item {
 	max-width:400px;
-	img {
+}
+
+.portfolio-img {
+	position:relative;
+	overflow:hidden;
+	> img {
 		width:100%;
+		position:relative;
 		border: $detail-border;
 	}
+	.portfolio-links{
+		position:absolute;
+		top:60%;
+		left:0;
+		bottom:0;
+		right:0;
+		display:flex;
+		flex-flow: row wrap;
+		justify-content:center;
+		align-items:center;
+		a {
+			background-color:$alt-background-color;
+			border-radius:50%;
+			width:4rem;
+			height:4rem;
+			margin:.8rem;
+			display:flex;
+			flex-flow: row wrap;
+			justify-content:center;
+			align-items:center;
+			-webkit-box-shadow: 0 0 1rem 0 rgba(0,0,0,0.75);
+			-moz-box-shadow: 0 0 1rem 0 rgba(0,0,0,0.75);
+			box-shadow: 0 0 1rem 0 rgba(0,0,0,0.75);
+			svg {
+				width:60%;
+			}
+		}
+	}
 }
+
+
+
 
 // Navigation 
 
