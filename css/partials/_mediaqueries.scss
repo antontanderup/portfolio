@@ -177,7 +177,6 @@
 
 		.kompetencer {
 			width:40%;
-
 		}
 
 		.kontakt {
@@ -199,4 +198,51 @@
 
 	}
 
+}
+
+.kontakt-side {
+
+	.intro, .contact-form, .social {
+		flex:1 100%;
+	}
+
+	.intro {
+		order:1;
+	}
+
+	.contact-form {
+		order:2;
+	}
+
+	.social {
+		order:3;
+	}
+	
+	@media all and (min-width: 650px) {
+		.wrap {
+			display:block;
+		}
+
+		.intro, .contact-form {
+			float:left;
+			width:55%;
+		}
+		.social {
+			float:right;
+			width:40%;
+		}
+	}
+
+	@media all and (min-width: 770px) {
+
+		.intro, .contact-form{
+			width:65%;
+			margin-right: 5%
+		}
+
+		.social {
+			width:30%;
+		}
+
+	}
 }
