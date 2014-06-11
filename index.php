@@ -88,5 +88,7 @@
 
    </div> <!-- min-profil END -->
 
+   <div id="lightbox" class="lightbox-hide"></div>
+
 
 <?php include("footer.php");?>

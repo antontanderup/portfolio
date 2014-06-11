@@ -83,7 +83,27 @@ html {
 	}
 }
 
+// Contact page
 
+.contact-form {
+	line-height:$base-line-height;
+	label {
+		margin:.3rem 0;
+		font-weight:$bold-font-weight;
+	}
+
+	input, textarea {
+		width:100%;
+		margin:.3rem 0;
+		border-radius: $border-radius;
+		border:$detail-border; 
+		line-height: $base-line-height;
+	}
+}
+
+.social {
+	width:100%;
+}
 
 
 // Navigation 

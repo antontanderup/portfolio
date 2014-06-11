@@ -114,6 +114,35 @@ p {
 .right {
   float: right; }
 
+.social-button {
+  line-height: 4.8rem;
+  text-decoration: none;
+  display: inline-block; }
+  .social-button span {
+    background-color: #575757;
+    border-radius: 50%;
+    width: 4rem;
+    height: 4rem;
+    margin: .8rem;
+    display: inline-block;
+    position: relative;
+    -webkit-box-shadow: 0 0 0.5rem 0 rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0 0 0.5rem 0 rgba(0, 0, 0, 0.75);
+    box-shadow: 0 0 0.5rem 0 rgba(0, 0, 0, 0.75); }
+  .social-button svg {
+    width: 2.5rem;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -1.6rem;
+    margin-left: -1.19rem;
+    z-index: 100; }
+
+.social-button:hover span {
+  background-color: white; }
+.social-button:hover svg path {
+  fill: black !important; }
+
 .nav-button {
   background-image: url("../icons/nav-button.svg");
   background-repeat: none;
@@ -132,6 +161,39 @@ p {
   text-align: center;
   border-top: 1px solid rgba(255, 255, 255, 0.21);
   font-size: 1.6rem; }
+
+/* ----------------------------------- \
+	partials/_lightbox.scss - loaded
+\ ----------------------------------- */
+#lightbox {
+  position: absolute; }
+
+.lightbox-show {
+  background-color: rgba(0, 0, 0, 0.83);
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  opacity: 1;
+  -webkit-transition: opacity .4s ease;
+  -moz-transition: opacity .4s ease;
+  transition: opacity .4s ease; }
+  .lightbox-show img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+    max-width: 1200px;
+    width: 100%;
+    -webkit-box-shadow: 0 0 2rem 0 rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0 0 2rem 0 rgba(0, 0, 0, 0.75);
+    box-shadow: 0 0 2rem 0 rgba(0, 0, 0, 0.75); }
+
+.lightbox-hide {
+  opacity: 0;
+  top: -100%; }
 
 /* ----------------------------------- \
 	partials/_layout.scss - loaded
@@ -161,6 +223,60 @@ html {
 .profile-picture {
   width: 100%;
   margin: 2.9rem 0 0 0; }
+
+.portfolio .wrap {
+  justify-content: space-around; }
+
+.portfolio-item {
+  max-width: 400px; }
+
+.portfolio-img {
+  position: relative;
+  overflow: hidden; }
+  .portfolio-img > img {
+    width: 100%;
+    position: relative;
+    border: 1px solid #c4c4c4; }
+  .portfolio-img .portfolio-links {
+    position: absolute;
+    top: 60%;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center; }
+    .portfolio-img .portfolio-links a {
+      background-color: #575757;
+      border-radius: 50%;
+      width: 4rem;
+      height: 4rem;
+      margin: .8rem;
+      display: flex;
+      flex-flow: row wrap;
+      justify-content: center;
+      align-items: center;
+      -webkit-box-shadow: 0 0 1rem 0 rgba(0, 0, 0, 0.75);
+      -moz-box-shadow: 0 0 1rem 0 rgba(0, 0, 0, 0.75);
+      box-shadow: 0 0 1rem 0 rgba(0, 0, 0, 0.75); }
+      .portfolio-img .portfolio-links a svg {
+        width: 60%; }
+
+.contact-form {
+  line-height: 1.45; }
+  .contact-form label {
+    margin: .3rem 0;
+    font-weight: 700; }
+  .contact-form input, .contact-form textarea {
+    width: 100%;
+    margin: .3rem 0;
+    border-radius: 0.3rem;
+    border: 1px solid #c4c4c4;
+    line-height: 1.45; }
+
+.social {
+  width: 100%; }
 
 .nav-show {
   display: block; }
@@ -226,6 +342,34 @@ html {
 @media all and (min-width: 1010px) {
   .wrap {
     margin: auto; } }
+@media all and (min-width: 550px) {
+  .portfolio .wrap {
+    justify-content: space-between; }
+  .portfolio .intro {
+    flex: 1 100%; }
+  .portfolio .portfolio-item {
+    flex: 1 auto;
+    max-width: 48%; } }
+@media all and (min-width: 900px) {
+  .portfolio .portfolio-item {
+    max-width: 32%; }
+  .portfolio .portfolio-img .portfolio-links {
+    top: 60%;
+    opacity: .5;
+    -webkit-transition: .4s ease;
+    -moz-transition: .4s ease;
+    transition: .4s ease; }
+  .portfolio .portfolio-img:hover .portfolio-links {
+    top: 0%;
+    opacity: 1;
+    -webkit-transition: .4s ease;
+    -moz-transition: .4s ease;
+    transition: .4s ease; }
+    .portfolio .portfolio-img:hover .portfolio-links a:hover {
+      background-color: white; }
+      .portfolio .portfolio-img:hover .portfolio-links a:hover svg path {
+        fill: black !important; } }
+
 .min-profil .intro, .min-profil .about, .min-profil .kontakt {
   flex: 1 100%; }
 .min-profil .intro {
