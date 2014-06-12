@@ -12,8 +12,9 @@
 			</section>
 		</div> <!-- intro-text END -->
 
+		<h2 class="year-head">2014</h2>
 		<article class="portfolio-item">
-			<h2 class="subhead">Som sunket i jorden</h2>
+			<h2 class="subhead">Responsive: <br/>Som sunket i jorden</h2>
 			<div class="portfolio-img">
 				<img src="img/portfolio/somsunketijorden.jpg" alt="Som sunket i jorden thumbnail" />
 				<div class="portfolio-links">
@@ -25,63 +26,64 @@
 		</article> <!-- portfolio-item END -->
 
 		<article class="portfolio-item">
-			<h2 class="subhead">Som sunket i jorden</h2>
+			<h2 class="subhead">iOS Web-app: <br/>BMI Calculator</h2>
 			<div class="portfolio-img">
-				<img src="img/portfolio/somsunketijorden.jpg" alt="Som sunket i jorden thumbnail" />
+				<img src="img/portfolio/bmicalc-400px.jpg" alt="BMI Calculator thumbnail" />
 				<div class="portfolio-links">
-					<a class="img-link" href="img/portfolio/somsunketijorden-1200px.jpg"><?php include("icons/camera.svg");?></a>
-					<a class="site-link" href="http://somsunketijorden.dk/"><?php include("icons/link.svg");?></a>
+					<a class="img-link" href="img/portfolio/bmicalc-800px.jpg"><?php include("icons/camera.svg");?></a>
+					<a class="site-link" href="projects/bmicalc/"><?php include("icons/link.svg");?></a>
 				</div>
 			</div>
-			<p>Responsive wordpress tema udvilket og designet til TV teaseren, Som sunket i jorden. </p>
+			<p>Web-app udviklet primært til iOS. Brugt er HTML, CSS og jQuery.</p>
+		</article> <!-- portfolio-item END -->
+
+		<h2 class="year-head">2013</h2>
+		<article class="portfolio-item">
+			<h2 class="subhead">Responsive: The Mobile Service Desk</h2>
+			<div class="portfolio-img">
+				<img src="img/portfolio/tefcold-400px.jpg" alt="Mobile Service Desk thumbnail" />
+				<div class="portfolio-links">
+					<a class="img-link" href="img/portfolio/tefcold-1200px.jpg"><?php include("icons/camera.svg");?></a>
+					<a class="site-link" href="projects/tefcold/"><?php include("icons/link.svg");?></a>
+				</div>
+			</div>
+			<p>Responsive website udviklet til Tefcold, som del af 5. semester projekt på ICM. Brugt er HTML, CSS og PHP.</p>
 		</article> <!-- portfolio-item END -->
 
 		<article class="portfolio-item">
-			<h2 class="subhead">Som sunket i jorden</h2>
+			<h2 class="subhead">Responsive: <br/>linje k</h2>
 			<div class="portfolio-img">
-				<img src="img/portfolio/somsunketijorden.jpg" alt="Som sunket i jorden thumbnail" />
+				<img src="img/portfolio/linjek-400px.jpg" alt="linje k thumbnail" />
 				<div class="portfolio-links">
-					<a class="img-link" href="img/portfolio/somsunketijorden-1200px.jpg"><?php include("icons/camera.svg");?></a>
-					<a class="site-link" href="http://somsunketijorden.dk/"><?php include("icons/link.svg");?></a>
+					<a class="img-link" href="img/portfolio/linjek-1200px.jpg"><?php include("icons/camera.svg");?></a>
+					<a class="site-link" href="http://linjek.dk/"><?php include("icons/link.svg");?></a>
 				</div>
 			</div>
-			<p>Responsive wordpress tema udvilket og designet til TV teaseren, Som sunket i jorden. </p>
+			<p>Responsive wordpress tema udvilket og designet til forelaget linje k.</p>
 		</article> <!-- portfolio-item END -->
 
 		<article class="portfolio-item">
-			<h2 class="subhead">Som sunket i jorden</h2>
+			<h2 class="subhead">Bogomslag: <br/>Sorgens Scene</h2>
 			<div class="portfolio-img">
-				<img src="img/portfolio/somsunketijorden.jpg" alt="Som sunket i jorden thumbnail" />
+				<img src="img/portfolio/sorgensscene-400px.jpg" alt="Sorgens Scene thumbnail" />
 				<div class="portfolio-links">
-					<a class="img-link" href="img/portfolio/somsunketijorden-1200px.jpg"><?php include("icons/camera.svg");?></a>
-					<a class="site-link" href="http://somsunketijorden.dk/"><?php include("icons/link.svg");?></a>
+					<a class="img-link" href="img/portfolio/sorgensscene-1200px.jpg"><?php include("icons/camera.svg");?></a>
+					<a class="site-link" href="http://leotandrup.dk/blog/?p=154"><?php include("icons/link.svg");?></a>
 				</div>
 			</div>
-			<p>Responsive wordpress tema udvilket og designet til TV teaseren, Som sunket i jorden. </p>
+			<p>Bogomslag designet til bogen Sorgens Scene.</p>
 		</article> <!-- portfolio-item END -->
 
+		<h2 class="year-head">2012</h2>
 		<article class="portfolio-item">
-			<h2 class="subhead">Som sunket i jorden</h2>
+			<h2 class="subhead">Bogomslag: <br/>Caravaggio</h2>
 			<div class="portfolio-img">
-				<img src="img/portfolio/somsunketijorden.jpg" alt="Som sunket i jorden thumbnail" />
+				<img src="img/portfolio/caravaggio-400px.jpg" alt="Caravaggio thumbnail" />
 				<div class="portfolio-links">
-					<a class="img-link" href="img/portfolio/somsunketijorden-1200px.jpg"><?php include("icons/camera.svg");?></a>
-					<a class="site-link" href="http://somsunketijorden.dk/"><?php include("icons/link.svg");?></a>
+					<a class="img-link" href="img/portfolio/caravaggio-1200px.jpg"><?php include("icons/camera.svg");?></a>
 				</div>
 			</div>
-			<p>Responsive wordpress tema udvilket og designet til TV teaseren, Som sunket i jorden. </p>
-		</article> <!-- portfolio-item END -->
-
-		<article class="portfolio-item">
-			<h2 class="subhead">Som sunket i jorden</h2>
-			<div class="portfolio-img">
-				<img src="img/portfolio/somsunketijorden.jpg" alt="Som sunket i jorden thumbnail" />
-				<div class="portfolio-links">
-					<a class="img-link" href="img/portfolio/somsunketijorden-1200px.jpg"><?php include("icons/camera.svg");?></a>
-					<a class="site-link" href="http://somsunketijorden.dk/"><?php include("icons/link.svg");?></a>
-				</div>
-			</div>
-			<p>Responsive wordpress tema udvilket og designet til TV teaseren, Som sunket i jorden. </p>
+			<p>Bogomslag designet til bogen Caravaggio.</p>
 		</article> <!-- portfolio-item END -->
 
 	</section> <!-- wrap END -->

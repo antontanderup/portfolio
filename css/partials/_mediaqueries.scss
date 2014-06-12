@@ -90,7 +90,7 @@
 			justify-content: space-between;
 		}
 
-		.intro {
+		.intro, .year-head {
 			flex: 1 100%;
 		}
 
@@ -102,6 +102,10 @@
 	}
 
 	@media all and (min-width: 900px) {
+		.wrap {
+			
+		}
+
 		.portfolio-item {
 			max-width:32%;
 		}
