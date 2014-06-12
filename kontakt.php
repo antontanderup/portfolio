@@ -22,6 +22,33 @@
 				<p>Jeg kan kontaktes ved brug af formularen nedenfor, på email <a href="mailto:antontandrup@gmail.com">antontandrup@gmail.com</a> eller telefon <a href="tel:28730450">28 73 04 50</a>.</p>			
 			</section>
 		</div> <!-- intro-text END -->
+
+		<?php
+			// Variables
+			$name = isset($_POST['name']) ? $_POST['name'] : false;
+			$email = isset($_POST['email']) ? $_POST['email'] : false;
+			$message = isset($_POST['message']) ? $_POST['message'] : false;
+			$from = 'From: Portfolio';
+			$to = 'antontandrup@gmail.com';
+			$subject = 'Message from portfolio form';
+
+			if ($name and $email and $message) {
+				// Assemble
+				$body = "Fra: $name\n Email: $email\n Besked:\n $message";
+				
+				// Submit
+				if ($_POST['submit']) {
+					if (mail ($to, $subject, $body, $from)) {
+						echo '<p>Tak for din besked. Jeg svarer snarest muligt.</p>';
+					} else {
+						echo '<p>Der skete en fejl. Prøv venligst igen.</p>';
+					}
+				}
+
+			}
+			
+			
+		?>
 	
 		<section class="contact-form">
 			<h2 class="subhead">Send en besked</h2>
@@ -32,7 +59,7 @@
 				<input type="email" id="email" name="email">			
 				<label for="message">Din besked</label>
 				<textarea name="message" id="message"></textarea>			
-				<input type="submit" value="Send" class="button" />
+				<input type="submit" id="submit" name="submit" value="Send" class="button" />
 			</form>
 		</section> <!-- contact-form END -->
 
