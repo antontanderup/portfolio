@@ -25,7 +25,7 @@
 	
 		<section class="contact-form">
 			<h2 class="subhead">Send en besked</h2>
-			<form>
+			<form method="post" action="kontakt.php">
 				<label for="name">Dit navn</label>
 				<input type="tekst" id="name" name="name">				
 				<label for="email">Din email</label>
