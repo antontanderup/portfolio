@@ -23,35 +23,33 @@
 			</section>
 		</div> <!-- intro-text END -->
 
-		<?php
-			// Variables
-			$name = isset($_POST['name']) ? $_POST['name'] : false;
-			$email = isset($_POST['email']) ? $_POST['email'] : false;
-			$message = isset($_POST['message']) ? $_POST['message'] : false;
-			$from = 'From: Portfolio';
-			$to = 'antontandrup@gmail.com';
-			$subject = 'Message from portfolio form';
-
-			if ($name and $email and $message) {
-				// Assemble
-				$body = "Fra: $name\n Email: $email\n Besked:\n $message";
-				
-				// Submit
-				if ($_POST['submit']) {
-					if (mail ($to, $subject, $body, $from)) {
-						echo '<p>Tak for din besked. Jeg svarer snarest muligt.</p>';
-					} else {
-						echo '<p>Der skete en fejl. Prøv venligst igen.</p>';
-					}
-				}
-
-			}
-			
-			
-		?>
 	
 		<section class="contact-form">
 			<h2 class="subhead">Send en besked</h2>
+			<?php			
+				// Variables
+				$name = isset($_POST['name']) ? $_POST['name'] : false;
+				$email = isset($_POST['email']) ? $_POST['email'] : false;
+				$message = isset($_POST['message']) ? $_POST['message'] : false;
+				$from = 'From: Portfolio';
+				$to = 'antontandrup@gmail.com';
+				$subject = 'Message from portfolio form';
+
+				if ($name and $email and $message) {
+					// Assemble
+					$body = "Fra: $name\n Email: $email\n Besked:\n $message";
+					
+					// Submit
+					if ($_POST['submit']) {
+						if (mail ($to, $subject, $body, $from)) {
+							echo '<p>Tak for din besked. Jeg svarer snarest muligt.</p>';
+						} else {
+							echo '<p>Der skete en fejl. Prøv venligst igen.</p>';
+						}
+					}
+
+				}			
+			?>
 			<form method="post" action="kontakt.php">
 				<label for="name">Dit navn</label>
 				<input type="tekst" id="name" name="name">				
