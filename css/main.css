@@ -63,12 +63,15 @@ body {
   margin-bottom: 1.4rem;
   margin-top: 2.9rem; }
 
-.subhead {
+.subhead, .year-head {
   font-size: 3rem;
   border-bottom: 1px solid #c4c4c4;
   padding-bottom: .8rem;
   margin-top: 2.8rem;
   margin-bottom: 1.4rem; }
+
+.year-head {
+  width: 100%; }
 
 p {
   font-family: helvetica, arial, sans-serif;
@@ -81,7 +84,7 @@ p {
 \ ----------------------------------- */
 .skill {
   border: 1px solid #c4c4c4;
-  border-radius: 0.3rem;
+  border-radius: 0.5rem;
   margin: .9rem 0;
   font-size: 1.6rem;
   line-height: 1.8125; }
@@ -94,7 +97,7 @@ p {
 
 .button {
   border: 1px solid #c4c4c4;
-  border-radius: 0.3rem;
+  border-radius: 0.5rem;
   background-color: #575757;
   color: white;
   text-decoration: none;
@@ -123,7 +126,7 @@ p {
     border-radius: 50%;
     width: 4rem;
     height: 4rem;
-    margin: .8rem;
+    margin: .5rem;
     display: inline-block;
     position: relative;
     -webkit-box-shadow: 0 0 0.5rem 0 rgba(0, 0, 0, 0.75);
@@ -166,7 +169,7 @@ p {
 	partials/_lightbox.scss - loaded
 \ ----------------------------------- */
 #lightbox {
-  position: absolute; }
+  position: fixed; }
 
 .lightbox-show {
   background-color: rgba(0, 0, 0, 0.83);
@@ -185,8 +188,7 @@ p {
     bottom: 0;
     right: 0;
     margin: auto;
-    max-width: 1200px;
-    width: 100%;
+    max-width: 100%;
     -webkit-box-shadow: 0 0 2rem 0 rgba(0, 0, 0, 0.75);
     -moz-box-shadow: 0 0 2rem 0 rgba(0, 0, 0, 0.75);
     box-shadow: 0 0 2rem 0 rgba(0, 0, 0, 0.75); }
@@ -271,9 +273,15 @@ html {
   .contact-form input, .contact-form textarea {
     width: 100%;
     margin: .3rem 0;
-    border-radius: 0.3rem;
+    padding: .3rem;
+    border-radius: 0.5rem;
     border: 1px solid #c4c4c4;
     line-height: 1.45; }
+  .contact-form input {
+    height: 3.8rem; }
+  .contact-form textarea {
+    min-height: 10rem;
+    max-width: 100%; }
 
 .social {
   width: 100%; }
@@ -345,7 +353,7 @@ html {
 @media all and (min-width: 550px) {
   .portfolio .wrap {
     justify-content: space-between; }
-  .portfolio .intro {
+  .portfolio .intro, .portfolio .year-head {
     flex: 1 100%; }
   .portfolio .portfolio-item {
     flex: 1 auto;
@@ -397,4 +405,28 @@ html {
     width: 65%;
     margin-right: 5%; }
   .min-profil .kompetencer {
+    width: 30%; } }
+
+.kontakt-side .intro, .kontakt-side .contact-form, .kontakt-side .social {
+  flex: 1 100%; }
+.kontakt-side .intro {
+  order: 1; }
+.kontakt-side .contact-form {
+  order: 2; }
+.kontakt-side .social {
+  order: 3; }
+@media all and (min-width: 650px) {
+  .kontakt-side .wrap {
+    display: block; }
+  .kontakt-side .intro, .kontakt-side .contact-form {
+    float: left;
+    width: 55%; }
+  .kontakt-side .social {
+    float: right;
+    width: 40%; } }
+@media all and (min-width: 770px) {
+  .kontakt-side .intro, .kontakt-side .contact-form {
+    width: 65%;
+    margin-right: 5%; }
+  .kontakt-side .social {
     width: 30%; } }

@@ -21,6 +21,7 @@ window.onload = function() {
     	lightBox.className = 'lightbox-show';
     	lightBox.addEventListener("click", function() {
     		lightBox.className ="lightbox-hide";
+    		lightBox.innerHTML = '';
     	}, false);
 	}
 

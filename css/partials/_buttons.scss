@@ -58,12 +58,12 @@
 			border-radius:50%;
 			width:4rem;
 			height:4rem;
-			margin:.8rem;
+			margin:.5rem;
 			display:inline-block;
 			position:relative;
-			-webkit-box-shadow: 0 0 1rem 0 rgba(0,0,0,0.75);
-			-moz-box-shadow: 0 0 1rem 0 rgba(0,0,0,0.75);
-			box-shadow: 0 0 1rem 0 rgba(0,0,0,0.75);
+			-webkit-box-shadow: 0 0 .5rem 0 rgba(0,0,0,0.75);
+			-moz-box-shadow: 0 0 .5rem 0 rgba(0,0,0,0.75);
+			box-shadow: 0 0 .5rem 0 rgba(0,0,0,0.75);
 	}
 	svg {
 		width:2.5rem;
@@ -73,6 +73,15 @@
 		margin-top:-1.6rem;
 		margin-left:-1.19rem;
 		z-index:100;
+	}
+}
+
+.social-button:hover  { 
+	span {
+		background-color: $main-background-color;
+	}
+	svg path {
+		fill:$main-foreground-color !important;
 	}
 }
 
