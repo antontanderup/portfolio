@@ -5,7 +5,7 @@
 .wrap {
 	display:flex;
 	flex-flow: row wrap;
-	max-width: 95rem;
+	max-width: 100rem;
 }
 
 //exclude header from flex
@@ -103,11 +103,12 @@
 
 	@media all and (min-width: 900px) {
 		.wrap {
-			
+			justify-content: flex-start;
 		}
 
 		.portfolio-item {
 			max-width:32%;
+			margin-right:1.1%;
 		}
 		// CSS Animations for hover
 		.portfolio-img {
