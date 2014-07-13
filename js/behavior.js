@@ -35,10 +35,7 @@ window.onload = function() {
 
     	// Use responsive method appripriate to the aspect ratio of the image and the user viewport
     	if (imgAspect < userAspect) {
-    		var portraitHeight = window.innerHeight - 30;
-    		var portraitWidth = imgAspect * portraitHeight;
-    		if (portraitWidth > 1200) { portraitHeight = imgAspect * portraitWidth; }
-    		lightBox.innerHTML = '<img src="' + this + '" alt="image-large"' + ' style="max-height: ' + portraitHeight + 'px"' + ' height="100%"' +' />';
+    		lightBox.innerHTML = '<img src="' + this + '" alt="image-large"' + ' style="max-height: ' + imgHeight + 'px"' + ' height="100%"' +' />';
     	} else {
     		lightBox.innerHTML = '<img src="' + this + '" alt="image-large"' + ' style="max-width: ' + imgWidth + 'px"' + ' width="100%"' +' />';
     	}
