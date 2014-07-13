@@ -20,15 +20,15 @@
 		<div class="intro">
 			<h1 class="title">Min profil</h1>
 			<section class="intro-text">
-				<p>Dette er en kort tekst der beskriver hvad jeg kan. Mine evner indenfor web-design, front-end og så videre. Også lidt om min uddannelse.</p>			
+				<p>B.A. International Communication &amp; Multimedia. Mine evner ligger indenfor web-design, front-end udvikling med en stærk interesse indenfor social media og de nyeste teknologier.</p>			
 			</section>
 		</div> <!-- intro-text END -->
 
 		<article class="about">
 			<h2 class="subhead">Om mig</h2>
-			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent quis ipsum ac leo ultricies sagittis in faucibus nibh. Morbi id purus vel nisl sollicitudin venenatis ut ut risus. Curabitur tortor neque, aliquet sed convallis in, tempor et nisi. Phasellus ultrices congue mi ac eleifend. Fusce augue est, posuere nec iaculis eget, faucibus at lacus. Phasellus nunc libero, cursus sit amet tempor lacinia, adipiscing laoreet elit.</p>
-			<p>Proin facilisis eu lacus cursus tempus. Nulla lobortis, dui vel accumsan molestie, nisi mauris volutpat ligula, tincidunt mattis enim odio eget sapien. Donec vestibulum id enim eu ullamcorper. Nunc et risus non eros ultricies tempus.</p>
-			<p>Phasellus nunc libero, cursus sit amet tempor lacinia, adipiscing laoreet elit. Proin facilisis eu lacus cursus tempus. Nulla lobortis, dui vel accumsan molestie, nisi mauris volutpat ligula, tincidunt mattis enim odio eget sapien. Donec vestibulum id enim eu ullamcorper. Nunc et risus non eros ultricies tempus.</p>
+			<p>Jeg er nyuddannet som Bachelor i International Kommunikation og Multimedie. Gennem min uddannelse har jeg fået indsigt i både tværkulturel kommunikation og marketing, og derudover færdigheder inden for webdesign og front-end udvikling.</p>
+			<p>Mine egne interesser ligger primært inden for grafisk arbejde, webdesign og front-end udvikling. Her er jeg stærk indenfor html og css, og i kraftig udvikling indenfor javascript. Derudover har jeg basis viden inden for PHP og mySQL som jeg også gerne vil videreudvikle. Senest er min interesse også vendt mod SEO som helt klart også er et felt jeg vil udvikle mig inden for.</p>
+			<p>Personligt er jeg noget af en fag nørd. Jeg følger med i de seneste trends på Smashing Magazine, A List Apart, CSS-tricks og mange andre kilder. Jeg holder mig opdateret indenfor de nyeste gadgets og teknologier der kan gøre mit liv nemmere og sjovere. Derudover er lidt af en science fiction nørd, og det er ikke sjældent at mine venner bliver udsat for diverse fantastiske referencer til diverse film og tv shows.</p>
 		</article> <!-- about END -->
 
 		<aside class="kontakt">
