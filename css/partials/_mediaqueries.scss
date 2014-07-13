@@ -222,6 +222,13 @@
 	.social {
 		order:3;
 	}
+
+	@media all and (max-width:650px) {
+
+		.profile-picture {
+			display:none;
+		}
+	}
 	
 	@media all and (min-width: 650px) {
 		.wrap {
