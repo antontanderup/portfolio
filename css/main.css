@@ -180,7 +180,8 @@ p {
   opacity: 1;
   -webkit-transition: opacity .4s ease;
   -moz-transition: opacity .4s ease;
-  transition: opacity .4s ease; }
+  transition: opacity .4s ease;
+  max-width: 100%; }
   .lightbox-show img {
     position: absolute;
     top: 0;
@@ -188,7 +189,6 @@ p {
     bottom: 0;
     right: 0;
     margin: auto;
-    max-width: 100%;
     -webkit-box-shadow: 0 0 2rem 0 rgba(0, 0, 0, 0.75);
     -moz-box-shadow: 0 0 2rem 0 rgba(0, 0, 0, 0.75);
     box-shadow: 0 0 2rem 0 rgba(0, 0, 0, 0.75); }

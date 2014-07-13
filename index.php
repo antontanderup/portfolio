@@ -13,6 +13,7 @@
 		</div> <!-- intro-text END -->
 
 		<h2 class="year-head">2014</h2>
+
 		<article class="portfolio-item">
 			<h2 class="subhead">Responsive: <br/>Som sunket i jorden</h2>
 			<div class="portfolio-img">
@@ -38,6 +39,7 @@
 		</article> <!-- portfolio-item END -->
 
 		<h2 class="year-head">2013</h2>
+
 		<article class="portfolio-item">
 			<h2 class="subhead">Responsive: The Mobile Service Desk</h2>
 			<div class="portfolio-img">
@@ -75,6 +77,7 @@
 		</article> <!-- portfolio-item END -->
 
 		<h2 class="year-head">2012</h2>
+
 		<article class="portfolio-item">
 			<h2 class="subhead">Bogomslag: <br/>Caravaggio</h2>
 			<div class="portfolio-img">
@@ -85,6 +88,22 @@
 			</div>
 			<p>Bogomslag designet til bogen Caravaggio.</p>
 		</article> <!-- portfolio-item END -->
+
+		<h2 class="year-head">2010</h2>
+
+		<article class="portfolio-item">
+			<h2 class="subhead">Bogomslag: <br/>Novgorod</h2>
+			<div class="portfolio-img">
+				<img src="img/portfolio/novgorod-400px.jpg" alt="Novgorod thumbnail" />
+				<div class="portfolio-links">
+					<a class="img-link" href="img/portfolio/novgorod-1200px.jpg"><?php include("icons/camera.svg");?></a>
+				</div>
+			</div>
+			<p>Bogomslag designet til bogen Novgorod.</p>
+		</article> <!-- portfolio-item END -->
+
+
+		
 
 	</section> <!-- wrap END -->
 
