@@ -17,7 +17,7 @@ window.onload = function() {
 	// Function for displaying larger images
 	var displayBox = function(evt) {
 
-    	evt.preventDefault(); // Dont go directly to img url
+    	evt.preventDefault(); // Dont go to img url if js enabled
     	var lightBox = document.getElementById("lightbox"); // Define lightbox div
     	lightBox.innerHTML = '<img src="' + this + '" alt="image-large" id="img-lightboxed"/>'; // Load img in div
     	lightBox.className = 'lightbox-show'; // Display lightbox
@@ -32,6 +32,7 @@ window.onload = function() {
     	var imgWidth = imgLightboxed.clientWidth; // Define img width
     	var imgAspect = imgWidth / imgHeight; // Define img aspect ratio
     	var userAspect = window.innerWidth / window.innerHeight; // Define viewport aspect ratio
+
     	// Use responsive method appripriate to the aspect ratio of the image and the user viewport
     	if (imgAspect < userAspect) {
     		var portraitHeight = window.innerHeight - 30;
