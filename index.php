@@ -73,7 +73,7 @@
 					<a class="site-link" href="http://leotandrup.dk/blog/?p=154"><?php include("icons/link.svg");?></a>
 				</div>
 			</div>
-			<p>Bogomslag designet til bogen Sorgens Scene.</p>
+			<p>Bogomslag designet til bogen Sorgens Scene. Brugt er inDesign, Illustrator og Photoshop.</p>
 		</article> <!-- portfolio-item END -->
 
 		<h2 class="year-head">2012</h2>
@@ -86,7 +86,7 @@
 					<a class="img-link" href="img/portfolio/caravaggio-1200px.jpg"><?php include("icons/camera.svg");?></a>
 				</div>
 			</div>
-			<p>Bogomslag designet til bogen Caravaggio.</p>
+			<p>Bogomslag designet til bogen Caravaggio. Brugt er inDesign og Photoshop.</p>
 		</article> <!-- portfolio-item END -->
 
 		<h2 class="year-head">2010</h2>
@@ -99,9 +99,30 @@
 					<a class="img-link" href="img/portfolio/novgorod-1200px.jpg"><?php include("icons/camera.svg");?></a>
 				</div>
 			</div>
-			<p>Bogomslag designet til bogen Novgorod.</p>
+			<p>Bogomslag designet til bogen Novgorod. Brugt er inDesign og Photoshop.</p>
 		</article> <!-- portfolio-item END -->
 
+		<article class="portfolio-item">
+			<h2 class="subhead">Bogomslag: Delacroix, Corbet, Manet, Cézanne</h2>
+			<div class="portfolio-img">
+				<img src="img/portfolio/delacroix-400px.jpg" alt="Delacroix, Corbet, Manet, Cézanne thumbnail" />
+				<div class="portfolio-links">
+					<a class="img-link" href="img/portfolio/delacroix-1200px.jpg"><?php include("icons/camera.svg");?></a>
+				</div>
+			</div>
+			<p>Bogomslag designet til bogen Delacroix, Corbet, Manet, Cézanne: Mellem romantik og realisme. Brugt er inDesign og photoshop.</p>
+		</article> <!-- portfolio-item END -->
+
+		<article class="portfolio-item">
+			<h2 class="subhead">Bogomslag: <br/>Kunstens Kald</h2>
+			<div class="portfolio-img">
+				<img src="img/portfolio/kunstenskald-400px.jpg" alt="Kunstens Kald thumbnail" />
+				<div class="portfolio-links">
+					<a class="img-link" href="img/portfolio/kunstenskald-800px.jpg"><?php include("icons/camera.svg");?></a>
+				</div>
+			</div>
+			<p>Bogomslag og layout til bogen Kunstens Kald.</p>
+		</article> <!-- portfolio-item END -->
 
 		
 

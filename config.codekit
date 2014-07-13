@@ -250,6 +250,28 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/portfolio\/kunstenskald-400px.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 20834,
+		"inputAbbreviatedPath": "\/img\/portfolio\/kunstenskald-400px.jpg",
+		"outputAbbreviatedPath": "\/img\/portfolio\/kunstenskald-400px.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/portfolio\/kunstenskald-800px.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 145162,
+		"inputAbbreviatedPath": "\/img\/portfolio\/kunstenskald-800px.jpg",
+		"outputAbbreviatedPath": "\/img\/portfolio\/kunstenskald-800px.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/portfolio\/linjek-1200px.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
