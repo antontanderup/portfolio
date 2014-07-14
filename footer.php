@@ -2,6 +2,6 @@
 	<footer>
 	
 	</footer> <!-- footer END -->
-	<script src="js/behavior.js"></script>
+	<script src="js/min/behavior-ck.js"></script>
 </body>
 </html>
