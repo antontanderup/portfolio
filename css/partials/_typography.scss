@@ -37,3 +37,5 @@ p {
 	margin:.9rem 0;
 }
 
+a:link:not(.button) { color: $alt-background-color;}
+a:visited:not(.button) { color: $main-foreground-color;}
