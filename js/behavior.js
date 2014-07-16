@@ -14,7 +14,7 @@ window.onload = function() {
 	var navButton = document.getElementById("nav-button");
 	navButton.addEventListener("click", navToggle, false);
 
-	// Function for displaying larger images
+	// Function for displaying larger images (lightbox)
 	var displayBox = function(evt) {
 		evt.preventDefault(); // Dont go to img url if js enabled
 
@@ -58,5 +58,20 @@ window.onload = function() {
 	for (var i = 0; i < img.length; i++) {
 		img[i].addEventListener("click", displayBox , false);
 	}
+
+
+	// Change font size on subheads that take up more than two lines space.
+	var portfolioSubhead = document.getElementsByClassName("subhead");
+	for (var x = 0; x < portfolioSubhead.length; x++) {
+		var subhead = portfolioSubhead[x];
+		while (subhead.clientHeight > 69) {
+			var style = window.getComputedStyle(subhead, null).getPropertyValue('font-size');
+			var fontSize = parseFloat(style) / 10;
+				subhead.style.fontSize = (fontSize - 0.1) + 'rem';
+				subhead.style.minHeight = '6.9rem';
+		}
+	}
+
+
 
 };
