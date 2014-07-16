@@ -45,7 +45,7 @@ window.onload = function() {
 	    	} else if (imgAspect > userAspect && imgWidth > 0) {
 	    		lightBox.innerHTML = '<img src="' + this.src + '" alt="image-large"' + ' style="max-width: ' + imgWidth + 'px"' + ' width="100%"' +' />';
 	    	} else {
-	    		
+	    		// Rely on initial image load.
 	    	}
 			lightBox.className = 'lightbox-show'; // Display lightbox
 		};
