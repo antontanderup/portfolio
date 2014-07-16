@@ -35,8 +35,8 @@
 			<h2 class="subhead">Kontakt mig</h2>
 			<a href="tel:28730450" class="button">28 73 04 50</a>
 			<a href="mailto:antontandrup@gmail.com" class="button">antontandrup@gmail.com</a>
-			<a href="#" class="button half-width left">Google +</a>
-			<a href="#" class="button half-width right">twitter</a>
+			<a href="https://plus.google.com/+AntonTanderup/" class="button half-width left">Google +</a>
+			<a href="https://twitter.com/AntonTanderup" class="button half-width right">twitter</a>
 		</aside> <!-- kontakt END --> 
 
 	</section> <!-- wrap END -->
