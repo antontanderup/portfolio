@@ -9,11 +9,11 @@
 		<aside class="social">
 			<img src="img/antontanderup.jpg" alt="Anton Tanderup" class="profile-picture" />	
 			<h2 class="subhead">Sociale netværk</h2>
-			<a class="social-button" href="https://www.linkedin.com/pub/anton-tanderup/48/40b/966"><span><?php include("icons/linkedin.svg");?></span></a>
-			<a class="social-button" href="https://flic.kr/ps/vubFe"><span><?php include("icons/flickr.svg");?></span></a>
-			<a class="social-button" href="https://twitter.com/AntonTanderup"><span><?php include("icons/twitter.svg");?></span></a>
-			<a class="social-button" href="https://plus.google.com/+AntonTanderup/"><span><?php include("icons/googleplus.svg");?></span></a>
-			<a class="social-button" href="https://www.facebook.com/antontanderup/"><span><?php include("icons/facebook.svg");?></span></a>
+			<a class="social-button" href="https://www.linkedin.com/pub/anton-tanderup/48/40b/966"><span><?php include("icon/linkedin.svg");?></span></a>
+			<a class="social-button" href="https://flic.kr/ps/vubFe"><span><?php include("icon/flickr.svg");?></span></a>
+			<a class="social-button" href="https://twitter.com/AntonTanderup"><span><?php include("icon/twitter.svg");?></span></a>
+			<a class="social-button" href="https://plus.google.com/+AntonTanderup/"><span><?php include("icon/googleplus.svg");?></span></a>
+			<a class="social-button" href="https://www.facebook.com/antontanderup/"><span><?php include("icon/facebook.svg");?></span></a>
 		</aside> <!-- social END -->
 
 		<div class="intro">

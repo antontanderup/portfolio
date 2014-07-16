@@ -19,8 +19,8 @@
 			<div class="portfolio-img">
 				<img src="img/portfolio/somsunketijorden.jpg" alt="Som sunket i jorden thumbnail" />
 				<div class="portfolio-links">
-					<a class="img-link" href="img/portfolio/somsunketijorden-1200px.jpg"><?php include("icons/camera.svg");?></a>
-					<a class="site-link" href="http://somsunketijorden.dk/"><?php include("icons/link.svg");?></a>
+					<a class="img-link" href="img/portfolio/somsunketijorden-1200px.jpg"><?php include("icon/camera.svg");?></a>
+					<a class="site-link" href="http://somsunketijorden.dk/"><?php include("icon/link.svg");?></a>
 				</div>
 			</div>
 			<p>Responsive wordpress tema udvilket og designet til TV teaseren, Som sunket i jorden. </p>
@@ -31,8 +31,8 @@
 			<div class="portfolio-img">
 				<img src="img/portfolio/bmicalc-400px.jpg" alt="BMI Calculator thumbnail" />
 				<div class="portfolio-links">
-					<a class="img-link" href="img/portfolio/bmicalc-800px.jpg"><?php include("icons/camera.svg");?></a>
-					<a class="site-link" href="projects/bmicalc/"><?php include("icons/link.svg");?></a>
+					<a class="img-link" href="img/portfolio/bmicalc-800px.jpg"><?php include("icon/camera.svg");?></a>
+					<a class="site-link" href="projects/bmicalc/"><?php include("icon/link.svg");?></a>
 				</div>
 			</div>
 			<p>Web-app udviklet primært til iOS. Brugt er HTML, CSS og jQuery.</p>
@@ -45,8 +45,8 @@
 			<div class="portfolio-img">
 				<img src="img/portfolio/tefcold-400px.jpg" alt="Mobile Service Desk thumbnail" />
 				<div class="portfolio-links">
-					<a class="img-link" href="img/portfolio/tefcold-1200px.jpg"><?php include("icons/camera.svg");?></a>
-					<a class="site-link" href="projects/tefcold/"><?php include("icons/link.svg");?></a>
+					<a class="img-link" href="img/portfolio/tefcold-1200px.jpg"><?php include("icon/camera.svg");?></a>
+					<a class="site-link" href="projects/tefcold/"><?php include("icon/link.svg");?></a>
 				</div>
 			</div>
 			<p>Responsive website udviklet til Tefcold, som del af 5. semester projekt på ICM. Brugt er HTML, CSS og PHP.</p>
@@ -57,8 +57,8 @@
 			<div class="portfolio-img">
 				<img src="img/portfolio/linjek-400px.jpg" alt="linje k thumbnail" />
 				<div class="portfolio-links">
-					<a class="img-link" href="img/portfolio/linjek-1200px.jpg"><?php include("icons/camera.svg");?></a>
-					<a class="site-link" href="http://linjek.dk/"><?php include("icons/link.svg");?></a>
+					<a class="img-link" href="img/portfolio/linjek-1200px.jpg"><?php include("icon/camera.svg");?></a>
+					<a class="site-link" href="http://linjek.dk/"><?php include("icon/link.svg");?></a>
 				</div>
 			</div>
 			<p>Responsive wordpress tema udvilket og designet til forelaget linje k.</p>
@@ -69,8 +69,8 @@
 			<div class="portfolio-img">
 				<img src="img/portfolio/sorgensscene-400px.jpg" alt="Sorgens Scene thumbnail" />
 				<div class="portfolio-links">
-					<a class="img-link" href="img/portfolio/sorgensscene-1200px.jpg"><?php include("icons/camera.svg");?></a>
-					<a class="site-link" href="http://leotandrup.dk/blog/?p=154"><?php include("icons/link.svg");?></a>
+					<a class="img-link" href="img/portfolio/sorgensscene-1200px.jpg"><?php include("icon/camera.svg");?></a>
+					<a class="site-link" href="http://leotandrup.dk/blog/?p=154"><?php include("icon/link.svg");?></a>
 				</div>
 			</div>
 			<p>Bogomslag designet til bogen Sorgens Scene. Brugt er inDesign, Illustrator og Photoshop.</p>
@@ -83,7 +83,7 @@
 			<div class="portfolio-img">
 				<img src="img/portfolio/caravaggio-400px.jpg" alt="Caravaggio thumbnail" />
 				<div class="portfolio-links">
-					<a class="img-link" href="img/portfolio/caravaggio-1200px.jpg"><?php include("icons/camera.svg");?></a>
+					<a class="img-link" href="img/portfolio/caravaggio-1200px.jpg"><?php include("icon/camera.svg");?></a>
 				</div>
 			</div>
 			<p>Bogomslag designet til bogen Caravaggio. Brugt er inDesign og Photoshop.</p>
@@ -96,7 +96,7 @@
 			<div class="portfolio-img">
 				<img src="img/portfolio/novgorod-400px.jpg" alt="Novgorod thumbnail" />
 				<div class="portfolio-links">
-					<a class="img-link" href="img/portfolio/novgorod-1200px.jpg"><?php include("icons/camera.svg");?></a>
+					<a class="img-link" href="img/portfolio/novgorod-1200px.jpg"><?php include("icon/camera.svg");?></a>
 				</div>
 			</div>
 			<p>Bogomslag designet til bogen Novgorod. Brugt er inDesign og Photoshop.</p>
@@ -107,7 +107,7 @@
 			<div class="portfolio-img">
 				<img src="img/portfolio/delacroix-400px.jpg" alt="Delacroix, Corbet, Manet, Cézanne thumbnail" />
 				<div class="portfolio-links">
-					<a class="img-link" href="img/portfolio/delacroix-1200px.jpg"><?php include("icons/camera.svg");?></a>
+					<a class="img-link" href="img/portfolio/delacroix-1200px.jpg"><?php include("icon/camera.svg");?></a>
 				</div>
 			</div>
 			<p>Bogomslag designet til bogen Delacroix, Corbet, Manet, Cézanne: Mellem romantik og realisme. Brugt er inDesign og photoshop.</p>
@@ -118,7 +118,7 @@
 			<div class="portfolio-img">
 				<img src="img/portfolio/kunstenskald-400px.jpg" alt="Kunstens Kald thumbnail" />
 				<div class="portfolio-links">
-					<a class="img-link" href="img/portfolio/kunstenskald-800px.jpg"><?php include("icons/camera.svg");?></a>
+					<a class="img-link" href="img/portfolio/kunstenskald-800px.jpg"><?php include("icon/camera.svg");?></a>
 				</div>
 			</div>
 			<p>Bogomslag og layout til bogen Kunstens Kald.</p>
