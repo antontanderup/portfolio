@@ -12,6 +12,7 @@ function menu_highlight($file_name) {
 <html>
 <head>
 	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<title><?php echo $page_title; ?> - Anton Tanderup</title>
 	<link rel="stylesheet" href="css/main.css">
