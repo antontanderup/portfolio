@@ -84,6 +84,22 @@ html {
 	}
 }
 
+.portfolio.flickr {
+	.intro {
+		margin-bottom: 2.8rem;
+	}
+
+	.flickr-link {
+		height:15rem;
+		margin:1rem;
+		display: flex;
+		align-items: center;
+		img {
+			max-height: 100%;
+		}
+	}
+}
+
 // Contact page
 
 .contact-form {

@@ -27,6 +27,7 @@ function menu_highlight($file_name) {
 			<ul class="nav-hide" id="top-nav-links">
 				<li><a href="profil.php" <?php menu_highlight('profil.php'); ?>>Profil</a></li>
 				<li><a href="index.php" <?php menu_highlight('index.php'); ?>>Portefølje</a></li>
+				<li><a href="photography.php" <?php menu_highlight('photography.php'); ?>>Fotografi</a></li>
 				<li><a href="kontakt.php" <?php menu_highlight('kontakt.php'); ?>>Kontakt</a></li>
 			</ul>
 		</nav>

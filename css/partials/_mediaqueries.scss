@@ -141,6 +141,14 @@
 	}
 }
 
+.portfolio.flickr {
+	@media all and (min-width:900px) {
+		.wrap {
+			justify-content: space-around;
+		}
+	}
+}
+
 
 // Min profil RWD layout
 .min-profil {
