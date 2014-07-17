@@ -10,10 +10,10 @@
 			<section>
 				<h2 class="subhead">Mine kompetencer</h2>
 				<div class="skill"><span style="width:85%;">Webdesign</span></div>
-				<div class="skill"><span style="width:80%;">HTML / CSS</span></div>
+				<div class="skill"><span style="width:80%;">HTML(5) / CSS(3)</span></div>
 				<div class="skill"><span style="width:70%;">JavaScript</span></div>
 				<div class="skill"><span style="width:75%;">jQuery</span></div>
-				<div class="skill"><span style="width:60%;">PHP</span></div>
+				<p><i>Phonegap development, PHP, wordpress, joomla, responsive web design, mobile first, goal directed design, product photography.</i></p>
 			</section>
 		</aside> <!-- kompetencer END -->
 
