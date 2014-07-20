@@ -41,5 +41,5 @@ i {
 	font-style:italic;
 }
 
-a:link:not(.button, footer) { color: $alt-background-color;}
-a:visited:not(.button, footer) { color: $main-foreground-color;}
+a:link:not(.button):not(footer a) { color: $alt-background-color;}
+a:visited:not(.button):not(footer a) { color: $main-foreground-color;}
