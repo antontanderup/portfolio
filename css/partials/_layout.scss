@@ -4,6 +4,11 @@
 
 html { 
 	font-size: 62.5%; // 1rem = 10px
+	background-color:$alt-background-color;
+}
+
+body {
+	background-color:$main-background-color;
 }
 
 .wrap {
@@ -33,6 +38,24 @@ html {
 	border: $detail-border;
 	width:100%;
 	margin:2.9rem 0 0 0;
+}
+
+footer {
+	background-color:$alt-background-color;
+	min-height:5rem;
+	clear:both;
+	margin-top:10rem;
+	width:100%;
+	display:inline-block;
+	p {
+		margin:0;
+		line-height:5rem;
+		text-align:center;
+		color:$alt-foreground-color;
+	a {
+			color:$alt-subdued-text-color;
+		}
+	}
 }
 
 // Portfolio
@@ -96,6 +119,7 @@ html {
 		align-items: center;
 		img {
 			max-height: 100%;
+			border:$detail-border;
 		}
 	}
 }
