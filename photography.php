@@ -13,7 +13,7 @@
 		<?php
 			$flickr = json_decode(file_get_contents("https://api.flickr.com/services/feeds/photos_public.gne?id=33367743@N05&format=json&nojsoncallback=1"), true);
 			$items = $flickr['items'];
-			for ($i = 1; $i <= 19; $i++) {
+			for ($i = 0; $i <= 19; $i++) {
 				$image = $items{$i}{'media'}['m'];
 				$title = $items{$i}['title']; 
 				$link = $items{$i}['link'];
