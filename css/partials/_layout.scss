@@ -40,7 +40,7 @@ body {
 	margin:2.9rem 0 0 0;
 }
 
-footer {
+.footer {
 	background-color:$alt-background-color;
 	min-height:5rem;
 	clear:both;
@@ -52,10 +52,6 @@ footer {
 		line-height:5rem;
 		text-align:center;
 		color:$alt-foreground-color;
-	a {
-			color:$alt-subdued-text-color;
-			text-decoration: none;
-		}
 	}
 }
 
