@@ -76,6 +76,42 @@
 			<p>Bogomslag designet til bogen Sorgens Scene. Brugt er inDesign, Illustrator og Photoshop.</p>
 		</article> <!-- portfolio-item END -->
 
+		<article class="portfolio-item">
+			<h2 class="subhead">Website: <br/>Gems Jewellery</h2>
+			<div class="portfolio-img">
+				<img src="img/portfolio/gems-400px.jpg" alt="Gems Jewellery thumbnail" />
+				<div class="portfolio-links">
+					<a class="img-link" href="img/portfolio/gems-1200px.jpg"><?php include("icon/camera.svg");?></a>
+					<a class="site-link" href="projects/gems"><?php include("icon/link.svg");?></a>
+				</div>
+			</div>
+			<p>Website designet og udviklet under gruppeprojekt på udvekslingsophold ved BCIT i Vancouver, BC.</p>
+		</article> <!-- portfolio-item END -->
+
+		<article class="portfolio-item">
+			<h2 class="subhead">Website: <br/>Tennis Supplies</h2>
+			<div class="portfolio-img">
+				<img src="img/portfolio/tennis-400px.jpg" alt="Tennis Supplies thumbnail" />
+				<div class="portfolio-links">
+					<a class="img-link" href="img/portfolio/tennis-1200px.jpg"><?php include("icon/camera.svg");?></a>
+					<a class="site-link" href="projects/tennis"><?php include("icon/link.svg");?></a>
+				</div>
+			</div>
+			<p>Website designet og udviklet under udvekslingsophold ved BCIT i Vancouver, BC.</p>
+		</article> <!-- portfolio-item END -->
+
+		<article class="portfolio-item">
+			<h2 class="subhead">Website: <br/>In Living Colour</h2>
+			<div class="portfolio-img">
+				<img src="img/portfolio/inlivingcolour-400px.jpg" alt="In Living Colour thumbnail" />
+				<div class="portfolio-links">
+					<a class="img-link" href="img/portfolio/inlivingcolour-1200px.jpg"><?php include("icon/camera.svg");?></a>
+					<a class="site-link" href="projects/colour"><?php include("icon/link.svg");?></a>
+				</div>
+			</div>
+			<p>Website designet og udviklet under udvekslingsophold ved BCIT i Vancouver, BC.</p>
+		</article> <!-- portfolio-item END -->
+
 		<h2 class="year-head">2012</h2>
 
 		<article class="portfolio-item">
