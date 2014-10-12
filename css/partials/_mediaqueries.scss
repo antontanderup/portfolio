@@ -52,6 +52,8 @@
 					.current-page {
 						background-color: $main-background-color;
 						color: $main-foreground-color;
+						border-top-left-radius:.2rem;
+						border-top-right-radius:.2rem;
 					}
 
 					.current-page:hover {
@@ -62,11 +64,17 @@
 						opacity:.8;
 						background-color: $main-background-color;
 						color: $main-foreground-color;
+						-webkit-transition: all .1s ease;
+						-moz-transition: all .1s ease;
+						transition: all .1s ease;
 					}
 
 					a:active {
 						background-color: $main-background-color;
 						opacity:1;
+						-webkit-transition: opacity .1s ease;
+						-moz-transition: opacity .1s ease;
+						transition: opacity .1s ease;
 					}
 
 				}
