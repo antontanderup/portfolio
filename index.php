@@ -15,6 +15,18 @@
 		<h2 class="year-head">2014</h2>
 
 		<article class="portfolio-item">
+			<h2 class="subhead">Web-app: <br/>Todo</h2>
+			<div class="portfolio-img">
+				<img src="img/portfolio/todo-400px.jpg" alt="Todo app thumbnail" />
+				<div class="portfolio-links">
+					<a class="img-link" href="img/portfolio/todo-800px.jpg"><?php include("icon/camera.svg");?></a>
+					<a class="site-link" href="projects/todo/"><?php include("icon/link.svg");?></a>
+				</div>
+			</div>
+			<p>Todo web app udviklet med formål at demonstrere HTMLlocalstorage.</p>
+		</article> <!-- portfolio-item END -->
+
+		<article class="portfolio-item">
 			<h2 class="subhead">Responsive: <br/>Som sunket i jorden</h2>
 			<div class="portfolio-img">
 				<img src="img/portfolio/somsunketijorden.jpg" alt="Som sunket i jorden thumbnail" />
