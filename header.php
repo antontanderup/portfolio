@@ -21,7 +21,7 @@ function menu_highlight($file_name) {
 	
 	<header class="header">
 	   <div class="wrap">
-		<h1>Anton Tanderup</h1>
+		<a href="index.php"><h1>Anton Tanderup</h1></a>
 		<nav class="top-nav">
 			<div class="nav-button" id="nav-button"></div>
 			<ul class="nav-hide" id="top-nav-links">

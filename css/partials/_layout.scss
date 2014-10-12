@@ -21,7 +21,9 @@ body {
 	h1 {
 		font-size: 2.4rem;
 		line-height: 6rem;
+		color:$main-background-color;
 	}
+	a { text-decoration:none;}
 }
 
 .intro-text {
