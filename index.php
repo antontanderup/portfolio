@@ -15,7 +15,7 @@
 		<h2 class="year-head">2014</h2>
 
 		<article class="portfolio-item">
-			<h2 class="subhead">CSS3: iPhone 6 i ren CSS</h2>
+			<h2 class="subhead">CSS3: iPhone 6</h2>
 			<div class="portfolio-img">
 				<img src="img/portfolio/iphone6css-400px.jpg" alt="iPhone 6 i ren CSS thumbnail" />
 				<div class="portfolio-links">
