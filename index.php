@@ -15,6 +15,18 @@
 		<h2 class="year-head">2014</h2>
 
 		<article class="portfolio-item">
+			<h2 class="subhead">CSS3: iPhone 6 i ren CSS</h2>
+			<div class="portfolio-img">
+				<img src="img/portfolio/iphone6css-400px.jpg" alt="iPhone 6 i ren CSS thumbnail" />
+				<div class="portfolio-links">
+					<a class="img-link" href="img/portfolio/iphone6css-800px.jpg"><?php include("icon/camera.svg");?></a>
+					<a class="site-link" href="http://codepen.io/antontanderup/pen/fLIew"><?php include("icon/link.svg");?></a>
+				</div>
+			</div>
+			<p>iPhone 6 lavet i CSS med bl.a. gradients og border radius.</p>
+		</article> <!-- portfolio-item END -->
+
+		<article class="portfolio-item">
 			<h2 class="subhead">Web-app: <br/>Todo</h2>
 			<div class="portfolio-img">
 				<img src="img/portfolio/todo-400px.jpg" alt="Todo app thumbnail" />
