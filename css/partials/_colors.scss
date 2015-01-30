@@ -7,8 +7,8 @@ $main-foreground-color: #000000; // Black
 
 $accent-color: #C4C4C4;
 
-$alt-background-color: #00303E; // Deep Blue
+$alt-background-color: #00303E; // Deep Blue 
 $alt-foreground-color: #ffffff; // White
 
 $subdued-text-color: #575757; // Bright BG 
-$alt-subdued-text-color: #C1D1DE; // Dark BG - White with shade of blue
+$alt-subdued-text-color: lighten(#3E0000, 85%); // Dark BG 
